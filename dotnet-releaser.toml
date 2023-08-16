@@ -4,3 +4,17 @@ project = "ReleaseNotes.sln"
 [github]
 user = "AntonyNET"
 repo = "DotnetReleaserDemo"
+[test]
+enable = false
+[coverage]
+enable = false
+[coveralls]
+publish = false
+[nuget]
+publish = false
+[brew]
+publish = false
+[scoop]
+publish = false
+[[pack]]
+publish = false
