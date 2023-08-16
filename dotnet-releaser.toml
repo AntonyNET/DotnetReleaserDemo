@@ -1,5 +1,6 @@
 # configuration file for dotnet-releaser
-[msbuild]
+profile = "custom"
+[msbuild]https://docs.github.com/ru/actions/security-guides/encrypted-secrets
 project = "ReleaseNotes.sln"
 [github]
 user = "AntonyNET"
