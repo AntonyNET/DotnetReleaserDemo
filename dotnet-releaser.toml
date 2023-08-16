@@ -5,5 +5,3 @@ project = "ReleaseNotes.sln"
 [github]
 user = "AntonyNET"
 repo = "DotnetReleaserDemo"
-[nuget]
-publish = false
