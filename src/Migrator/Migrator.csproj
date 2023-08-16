@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+	<IsPackable>false</IsPackable>
+	<OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <PublishDir>/app/out/migrator</PublishDir>
     <AssemblyName>Migrator</AssemblyName>
     <RootNamespace>Byndyusoft.Template.Migrator</RootNamespace>
   </PropertyGroup>

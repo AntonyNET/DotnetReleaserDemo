@@ -2,6 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
+		<IsPackable>false</IsPackable>
 		<Nullable>enable</Nullable>
 		<PublishDir>/app/out/api</PublishDir>
 		<AssemblyName Condition="'$(SERVICE_NAME)' != ''">$(SERVICE_NAME)</AssemblyName>

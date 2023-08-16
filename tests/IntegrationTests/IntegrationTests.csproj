@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsPublishable>false</IsPublishable>
+	<IsPackable>false</IsPackable>
     <AssemblyName>Byndyusoft.Template.IntegrationTests</AssemblyName>
     <RootNamespace>Byndyusoft.Template.IntegrationTests</RootNamespace>
   </PropertyGroup>
