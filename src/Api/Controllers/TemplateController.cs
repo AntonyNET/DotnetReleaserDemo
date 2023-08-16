@@ -50,5 +50,11 @@
                        ? Ok(new TemplateDto { Id = resultId.Value })
                        : NotFound();
         }
+
+        [HttpDelete("{id:int}")]
+        public ActionResult Delete(int id)
+        {
+            return NoContent();
+        }
     }
 }
