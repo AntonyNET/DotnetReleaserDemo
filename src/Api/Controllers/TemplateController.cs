@@ -62,5 +62,11 @@
         {
             return NotFound();
         }
+
+        [HttpPut()]
+        public ActionResult Update()
+        {
+            return NotFound();
+        }
     }
 }
