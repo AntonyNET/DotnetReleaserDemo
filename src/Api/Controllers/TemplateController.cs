@@ -56,5 +56,11 @@
         {
             return NoContent();
         }
+
+        [HttpPut("{id:int}")]
+        public ActionResult Update(int id)
+        {
+            return Ok();
+        }
     }
 }
