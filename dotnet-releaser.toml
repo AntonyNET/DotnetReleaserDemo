@@ -1,0 +1,6 @@
+# configuration file for dotnet-releaser
+[msbuild]
+project = "ReleaseNotes.sln"
+[github]
+user = "AntonyNET"
+repo = "DotnetReleaserDemo"
